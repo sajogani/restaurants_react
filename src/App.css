@@ -42,3 +42,15 @@
 .iconcolor{
   color: #0A5239;
 }
+
+.Book_table_bg {
+  height: 100vh;
+  background-image: url(./images/Book_table_bg.png);
+  background-size: cover;
+}
+
+.Try_Something_bg {
+  height: 60vh;
+  background-image: url(./images/food_section_3.png);
+  background-size: cover;
+}
