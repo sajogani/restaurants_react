@@ -3,7 +3,7 @@ import burger from "../images/burger.png";
 import pizza from "../images/pizza.png";
 import dosa from "../images/dosa.png";
 import shake from "../images/shake.png";
-import Restaurant_card from "./Restaurant_card";
+import Restaurant_card from "../Components/Restaurant_card";
 import restaurant_card_1 from "../images/restaurant_card_1.png";
 import restaurant_card_2 from "../images/restaurant_card_2.png";
 import restaurant_card_3 from "../images/restaurant_card_3.png";
