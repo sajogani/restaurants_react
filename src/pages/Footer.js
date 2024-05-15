@@ -1,22 +1,22 @@
-import React from 'react'
-import { CiLocationOn } from 'react-icons/ci'
+import React from "react";
+// import { CiLocationOn } from 'react-icons/ci'
 
 const Footer = () => {
     return (
-        <div>
-            <footer class="bg-white dark:bg-gray-900">
+        <>
+            <footer class=" text-white bg-black">
                 <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-8 sm:px-6 lg:px-8">
                     <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 xl:gap-32 lg:gap-4">
                         <div class="mx-auto max-w-sm lg:max-w-none">
-                            <span className='text-white block text-center font-bold text-xl'>LOGO</span>
-                            <p class="mt-4 text-center duration-500 lg:text-left lg:text-lg text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
+                            <span className='text-white block font-bold text-xl'>LOGO</span>
+                            <p class="mt-4 text-center duration-500 lg:text-left lg:text-lg text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet
                                 aut perferendis distinctio iusto repudiandae, provident velit earum?
                             </p>
 
                             <div class="mt-6 flex justify-center gap-4 lg:justify-start">
                                 <a
-                                    class="text-gray-700 duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                    class="text-white duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     href="#"
                                     target="_blank"
                                     rel="noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
                                 </a>
 
                                 <a
-                                    class="text-gray-700 transition duration-500 hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                    class="text-white transition duration-500 hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     href="#"
                                     target="_blank"
                                     rel="noreferrer"
@@ -48,7 +48,7 @@ const Footer = () => {
                                 </a>
 
                                 <a
-                                    class="text-gray-700 duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                    class="text-white duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                     href="#"
                                     target="_blank"
                                     rel="noreferrer"
@@ -68,12 +68,12 @@ const Footer = () => {
 
                         <div class="grid grid-cols-1 xl:gap-8 lg:gap-4 text-center lg:grid-cols-3 lg:text-left md:grid-cols-3 ">
                             <div>
-                                <strong class="font-medium text-gray-900 dark:text-white"> Restaurant </strong>
+                                <strong class="font-medium text-white dark:text-white"> Restaurant </strong>
 
                                 <ul class="mt-6 space-y-1">
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Home
@@ -82,7 +82,7 @@ const Footer = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             About us
@@ -91,7 +91,7 @@ const Footer = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Reviews
@@ -100,7 +100,7 @@ const Footer = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             FAQ’S
@@ -110,12 +110,12 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <strong class="font-medium text-gray-900 dark:text-white"> Our Services </strong>
+                                <strong class="font-medium text-white dark:text-white"> Our Services </strong>
 
                                 <ul class="mt-6 space-y-1">
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Dinning Service
@@ -124,7 +124,7 @@ const Footer = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Waiter Service
@@ -133,7 +133,7 @@ const Footer = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Assisted Service
@@ -143,7 +143,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <strong class="font-medium text-gray-900 dark:text-white"> Contact Information </strong>
+                                <strong class="font-medium text-white dark:text-white"> Contact Information </strong>
 
                                 <ul class="mt-6 space-y-1">
                                     <li
@@ -151,7 +151,7 @@ const Footer = () => {
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            class="size-5 shrink-0 not-italic text-gray-700 transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75"
+                                            class="size-5 shrink-0 not-italic text-white transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -169,7 +169,7 @@ const Footer = () => {
                                             />
                                         </svg>
 
-                                        <address class="-mt-0.5 flex-1 not-italic text-gray-700 transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75">
+                                        <address class="-mt-0.5 flex-1 not-italic text-white transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75">
                                             1901 Thornlegd cir. shior, hawali 31063
                                         </address>
                                     </li>
@@ -179,7 +179,7 @@ const Footer = () => {
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            class="size-5 shrink-0 not-italic text-gray-700 transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75"
+                                            class="size-5 shrink-0 not-italic text-white transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -197,7 +197,7 @@ const Footer = () => {
                                             />
                                         </svg>
 
-                                        <address class="-mt-0.5 flex-1 not-italic text-gray-700 transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75">
+                                        <address class="-mt-0.5 flex-1 not-italic text-white transition hover:text-gray-700/75 cursor-pointer dark:text-white dark:hover:text-white/75">
                                             12+ Locations
                                         </address>
                                     </li>
@@ -208,19 +208,20 @@ const Footer = () => {
 
                     <div class="mt-12 border-t border-gray-100 pt-6 dark:border-white-800">
                         <div class="text-center sm:flex sm:justify-between sm:text-left">
-                            <p class="text-sm cursor-pointer text-gray-700 duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
+                            <p class="text-sm cursor-pointer text-white duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                                 <span class="block sm:inline">Privacy Policy</span>
                             </p>
 
-                            <p class="mt-4 text-sm sm:order-first sm:mt-0 cursor-pointer text-gray-700 duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
+                            <p class="mt-4 text-sm sm:order-first sm:mt-0 cursor-pointer text-white duration-500 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                                 Teams of service
                             </p>
                         </div>
                     </div>
                 </div>
             </footer >
-        </div >
+        </>
     )
 }
 
-export default Footer
+
+export default Footer;

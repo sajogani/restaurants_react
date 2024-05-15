@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.border_b{
+    border-bottom: 1px solid rgb(211, 207, 207);
+}
+.font_weight{
+    font-weight: 400 !important;
+}

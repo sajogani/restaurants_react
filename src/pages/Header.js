@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { FaSearch, FaShoppingCart, FaTimes, FaUser } from 'react-icons/fa'
-import { FaXmark } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react"
+import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -16,11 +15,11 @@ const Header = () => {
 
     return (
         <div>
-            <header class="bg-white dark:bg-gray-900">
+            <header class="text-white bg-black">
                 <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div class="flex h-16 items-center justify-between">
                         <div class="flex-1 md:flex md:items-center md:gap-12">
-                            <a class="block text-teal-600 dark:text-teal-300" href="#">
+                            <a class="block font-normal" href="#">
                                 LOGO
                             </a>
                         </div>
@@ -29,17 +28,17 @@ const Header = () => {
                             <nav aria-label="Global" class="hidden md:block">
                                 <ul class="flex items-center gap-6 text-sm">
                                     <li>
-                                        <Link
-                                            class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                                            to="/"
+                                        <a
+                                            class="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            href="#"
                                         >
                                             Home
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li>
                                         <a
-                                            class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Menu
@@ -48,7 +47,7 @@ const Header = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             Offer
@@ -57,7 +56,7 @@ const Header = () => {
 
                                     <li>
                                         <a
-                                            class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             About Us
@@ -65,12 +64,12 @@ const Header = () => {
                                     </li>
 
                                     <li>
-                                        <Link
-                                            class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                                            to="/contact_us"
+                                        <a
+                                            class="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            href="#"
                                         >
                                             Contact Us
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>
@@ -78,7 +77,7 @@ const Header = () => {
                             <div class="flex items-center gap-4">
                                 <div class="sm:flex sm:gap-4">
                                     <a
-                                        class="text-base text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                        class="text-base text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                         href="#"
                                     >
                                         <FaSearch />
@@ -86,7 +85,7 @@ const Header = () => {
 
                                     <div class="hidden sm:flex">
                                         <a
-                                            class="text-base text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-base text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             <FaShoppingCart />
@@ -94,7 +93,7 @@ const Header = () => {
                                     </div>
                                     <div class="hidden sm:flex">
                                         <a
-                                            class="text-base text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            class="text-base text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                                             href="#"
                                         >
                                             <FaUser />
@@ -130,46 +129,46 @@ const Header = () => {
     )
 }
 
-const Sidebar = ({ onClose }) => {
+const Sidebar = () => {
     return (
-        <div className="md:w-64 p-20 bg-gray-200 dark:bg-gray-800 fixed top-0 left-0 h-full overflow-y-auto z-50">
-            {/* <h2 className='font-bold mb-2 text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75'>LOGO</h2>    */}
+        <>
+            <div className="md:w-64 p-20 bg-gray-200 dark:bg-gray-800 fixed top-0 left-0 h-full overflow-y-auto z-50">
+                {/* {/ <h2 className='font-bold mb-2 text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75'>LOGO</h2>    /} */}
 
-            <button onClick={onClose} className="absolute text-2xl top-4 right-4">
-                <FaXmark className="text-gray-500 hover:text-gray-700 cursor-pointer" />
-            </button>
+                <button onClick={onclose} className="absolute text-2xl top-4 right-4">
+                    <FaXmark className="text-gray-500 hover:text-gray-700 cursor-pointer" />
+                </button>
 
-            <ul className="flex flex-col items-center gap-6 text-sm">
-                <li>
-                    <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                        Menu
-                    </a>
-                </li>
-                <li>
-                    <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                        Offer
-                    </a>
-                </li>
-                <li>
-                    <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                        About Us
-                    </a>
-                </li>
-                <li>
-                    <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
-                        Contact Us
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <ul className="flex flex-col items-center gap-6 text-sm">
+                    <li>
+                        <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
+                            Menu
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
+                            Offer
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </>
     );
-};
-
-
-
-export default Header
+}
+export default Header;
